@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.slot-machine {
+    text-align: center;
+}
+
+.slots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.slot {
+    margin: 0 10px;
+}
+
+.slot img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bet-images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.bet-image {
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.bet-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bet-image span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
